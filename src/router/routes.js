@@ -79,6 +79,14 @@ export const asyncRoutes = [
         meta: {
           title: '图片合成'
         }
+      },
+      {
+        path: 'image-watermark',
+        name: 'ImageWatermark',
+        component: () => import('../views/image/ImageWatermark'),
+        meta: {
+          title: '图片水印'
+        }
       }
     ]
   },

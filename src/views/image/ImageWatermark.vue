@@ -25,7 +25,6 @@
 </template>
 
 <script>
-import img from "../../assets/testImg/img.jpg";
 export default {
   data() {
     return {
