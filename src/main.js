@@ -9,7 +9,10 @@ import './assets/icon-fonts/iconfont.css'
 import './assets/icon-fonts/iconfont'
 import 'element-ui/lib/theme-chalk/index.css'
 import ElementUI from 'element-ui'
+import addWatermark from './utils/shuiyin'
+
 Vue.use(ElementUI, { size: 'small' })
+Vue.use(addWatermark)
 
 Vue.config.productionTip = false
 
