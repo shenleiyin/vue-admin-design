@@ -13,7 +13,7 @@ import addWatermark from './utils/shuiyin'
 
 Vue.use(ElementUI, { size: 'small' })
 Vue.use(addWatermark)
-// ----
+// 
 Vue.config.productionTip = false
 
 new Vue({
